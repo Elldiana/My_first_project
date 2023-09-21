@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPET</title>
+    <link rel="stylesheet" href="check.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+</head>
+<body>
+
+    <div class="containers">
+       
+
+        <nav class="navbar navbar-expand-lg  bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand text-primary bg-secondary-subtle p-2" href="ana.html">LEGEND</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-uppercase m-auto mb-2 mb-lg-0 gap-3 border-bottom border-secondary-subtle">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="ana.html">anasayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="saglik.html">Sağlık</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html" role="button"  aria-expanded="false">
+                      ürünler
+                    </a>
+                    
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Iletişim
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">+90 555 555 55 55</a></li>
+                      <li><a class="dropdown-item" href="#">+90 555 555 55 55</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-lowercase" href="#">legend1111@gmail.com</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+  
+    </div>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        
+        <div class="returnCart">
+            <a href="/ПРОЕКТ/index.html"class="text-primary">Alış verişe devam et</a>
+            <h1>Alış veriş listesi</h1>
+            <div class="list">
+
+                <div class="item">
+                    <img src="images/legend.jpg">
+                    <div class="info">
+                        <div class="name">PRODUCT 1</div>
+                        <div class="price">$22/1 product</div>
+                    </div>
+                    
+                    <!-- <div class="quantity">5</div> -->
+                    <div class="quantity">
+                        <button>-</button>
+                        <span class="value">3</span>
+                        <button>+</button>
+                    </div>
+                    <div class="returnPrice">$433.3</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1>Ödeme Işlemi</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Isim, Soyisim</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Telefon numara</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                
+    
+                <div class="group">
+                    <label for="address">Adres</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+                <div class="group">
+                    <label for="country">Ülke</label>
+                    <select name="country" id="country">
+                        <option value="">Seç..</option>
+                        <option value="">Türkiye</option>
+                    </select>
+                </div>
+    
+                <div class="group">
+                    <label for="city">Şehir</label>
+                    <select name="city" id="city">
+                        <option value="">Seç..</option>
+                        <option value="">Istanbul</option>
+                        <option value="">Ankara</option>
+                        <option value="">Izmir</option>
+                        <option value="">Antalya</option>
+                        <option value="">Adana</option>
+                    </select>
+                </div>
+
+                <div class="group-1">
+                    <label for="kart">Kart Numarası</label>
+                    <input type="kart" name="kart" id="kart">
+                </div>
+
+                <div class="group">
+                    <label for="kart">Son kullanma Tarihi</label>
+                    <select name="month" id="month">
+                        <option value="">Ay</option>
+                        <option value="">01</option>
+                        <option value="">02</option>
+                        <option value="">03</option>
+                        <option value="">04</option>
+                        <option value="">05</option>
+                        <option value="">06</option>
+                        <option value="">07</option>
+                        <option value="">08</option>
+                        <option value="">09</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <label for="kart">Yıl</label>
+                    <select name="year" id="year">
+                        <option value="">Yıl</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <label for="kart">CVV</label>
+                    <input type="kart" name="kart" id="kart">
+                </div>
+
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Toplam miktar</div>
+                    <div class="totalQuantity">70</div>
+                </div>
+                <div class="row">
+                    <div>Toplam fiyat</div>
+                    <div class="totalPrice">$900</div>
+                </div>
+            </div>
+            <button class="buttonCheckout">ÖDEME YAP</button>
+            </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-dark bg-info-subtle text-dark border-top border-info">
+        <footer>
+            <div class="container-sm">
+                <div class="row m-auto">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Bize Ulaşın</h3>
+                        <ul>
+                            <li><a href="#">+90 555 555 55 55</a></li>
+                            <li><a href="#">legend1111@gmail.com</a></li>
+                            <li><a href="#">Izmir, NEOS Akademi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Hakkımızda</h3>
+                        <ul>
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="#">Takım</a></li>
+                            <li><a href="#">Kariyer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3 class="text-primary">LEGEND</h3>
+                        <p>LEGEND, ikinci on yıldır alkolsüz içecek pazarında çalışıyor. Birikmiş deneyim, şirketin dinamik olarak gelişen bir pazarda güvenle ilerlemesini sağlar. LEGEND, kısa vadeli başarıya ulaşma, maksimum kar elde etme görevinde üstlenmez.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-wikipedia-w"></i></a></div>
+                </div>
+                <p class="copyright">LEGEND © 2023</p>
+            </div>
+        </footer>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/b7aebaf495.js" crossorigin="anonymous"></script>
+<script src="check.js"></script>
+
+</body>
+</html>

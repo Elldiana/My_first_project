@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Legend 2 ",
+        "price": 8,
+        "image": "images/legend.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Baytik 2 ",
+        "price": 8,
+        "image": "images/baitik.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Issık-Ata 1,8 ",
+        "price": 10,
+        "image": "images/isyk-ata.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Legend spor 1",
+        "price": 12,
+        "image": "images/legend_sport-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bozo 1,5",
+        "price": 40,
+        "image": "images/bozo.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bozo 1,5",
+        "price": 35,
+        "image": "images/bozo-kl.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Ayran 1,5l",
+        "price": 20,
+        "image": "images/tan.png"
+    },
+    {
+        "id": 8,
+        "name": "Ayran buğdayla 1,5l",
+        "price": 35,
+        "image": "images/zharma.png"
+    },
+    {
+        "id": 9,
+        "name": "Arashan 0,5l",
+        "price": 10,
+        "image": "images/arashan.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Pompa",
+        "price": 80,
+        "image": "images/pompa1.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Legend 5l",
+        "price": 15,
+        "image": "images/legend1.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Legend 19l",
+        "price": 50,
+        "image": "images/legend_19.jpg"
+    }
+]
